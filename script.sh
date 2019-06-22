@@ -1,9 +1,9 @@
 #!/bin/bash
 
-for SCR in $@
+for script in $@
 do
-	touch $SCR
-	chmod u+x $SCR
-	dos2unix $SCR
+	touch $script
+	chmod u+x $script
+	dos2unix $script
 done
 
