@@ -1,2 +1,7 @@
 #!/bin/bash
-git clone git@github.com:vatsalgp/$1.git
+
+for repo in "$@"
+do
+	git clone git@github.com:vatsalgp/$repo.git
+done
+
